@@ -1,8 +1,16 @@
 # DFINITY (Internet Computer) Grant Delivery Report
 
+## NFT Token Standards
+
+1. ERC-721 analog: https://github.com/C3-Office/standards
+2. Toniq Labbs (EXT standard): 
+   1. [ERC-721](https://github.com/Toniq-Labs/extendable-token/blob/main/examples/erc721.mo)
+   2. [ERC-1155](https://github.com/Toniq-Labs/extendable-token)
+
 ## `Milestone 1` — Smart Contract Development
 0. We have researched the Dfinity standards and other factors & protocols that distinguish it from other chains
 https://github.com/XP-NETWORK/dfinity-integration/blob/master/src/xpnft/xpnft.mo
+<br/>
 We have developed smart contracts that can:  1. Support Singe & Batch transfers
 https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b87c88bd274ccb5f/src/minter/src/lib.rs#L220
 https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b87c88bd274ccb5f/src/minter/src/lib.rs#L236
@@ -20,7 +28,7 @@ https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b
 We have developed smart contracts that can:
 1. Trust the multisig of the bridge oracle validators
 https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b87c88bd274ccb5f/src/minter/src/lib.rs#L93-L138
-2. Whitelist NFT smart contracts - Irrelevant
+2. [Whitelist](https://github.com/XP-NETWORK/dfinity-integration/search?q=whitelist) NFT smart contracts.
 3. Pause/Unpause for maintenance or if compromised
 https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b87c88bd274ccb5f/src/minter/src/lib.rs#L140
 https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b87c88bd274ccb5f/src/minter/src/lib.rs#L181
