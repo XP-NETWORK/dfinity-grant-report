@@ -35,14 +35,23 @@ https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b
 4. Reimburse the bridge validators their expenses
 https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b87c88bd274ccb5f/src/minter/src/lib.rs#L198
 
-
-# TODO
-
 ## `Milestone 3` — Testing & Documenting
 
 | Length | Deliverable | Specification |
 |-|-|-|
-| 1 month | Tests & Documentation | 1. We will provide both inline documentation of the code and a basic tutorial that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper unit-test coverage 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. Deploying and testing the contracts in the testnet environment|
+| 1 month | Tests & Documentation | 1. We will provide both [inline documentation]() of the code and a basic tutorial that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper [functional test coverage](https://github.com/XP-NETWORK/dfinity-integration/blob/ext721/src/minter/src/tests.rs) 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. [Deploying](#bridge-contracts-deployed-on-testnet) and testing the contracts in the testnet environment|
+
+### Bridge contracts deployed on Testnet
+
+|Name|Address|Functionality|
+|:-:|:-:|:-|
+|Bridge Contract|[e3io4-qaaaa-aaaak-qasua-cai](https://icscan.io/canister/e3io4-qaaaa-aaaak-qasua-cai)|1. Interaction with the oracle-validators<br/>2. Orchestrating the work of the NFT contracts|
+|XPNFT|[e4jii-5yaaa-aaaak-qasuq-cai](https://icscan.io/canister/e4jii-5yaaa-aaaak-qasuq-cai)|The default NFT contract|
+|UMT|[evkdu-lqaaa-aaaak-qasva-cai](https://icscan.io/canister/evkdu-lqaaa-aaaak-qasva-cai)|NFT contract for free minting & testing bridging transactions|
+
+
+
+# TODO
 
 ## `Milestone 4` — Integrating into the Live Bridge
 | Length | Deliverable | Specification |
