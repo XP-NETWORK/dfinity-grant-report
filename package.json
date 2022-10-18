@@ -1,0 +1,26 @@
+{
+  "name": "testing-dfinity",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start":"tsc && node ./dist/index.js",
+    "approve":"tsc && node ./dist/approve.js",
+    "mint":"tsc && node ./dist/mint.js",
+    "nft-index":"tsc && node ./dist/list.js",
+    "transfer":"tsc && node ./dist/transfer.js"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.11.3",
+    "@dfinity/candid": "^0.11.3",
+    "@dfinity/identity": "^0.11.3",
+    "@dfinity/nns": "^0.8.1",
+    "@dfinity/principal": "^0.11.3",
+    "@elrondnetwork/erdjs": "^11.1.0",
+    "@taquito/taquito": "^14.0.0",
+    "@temple-wallet/dapp": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "xp.network": "git+https://github.com/xp-network/xpjs#bleeding-edge"
+  }
+}

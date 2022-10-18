@@ -39,9 +39,9 @@ https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b
 
 | Length | Deliverable | Specification |
 |-|-|-|
-| 1 month | Tests & Documentation | 1. We will provide both [inline documentation]() of the code and a basic tutorial that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper [functional test coverage](https://github.com/XP-NETWORK/dfinity-integration/blob/ext721/src/minter/src/tests.rs) 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests preparing for auditing<br/>3. [Deploying](#bridge-contracts-deployed-on-testnet) and testing the contracts in the testnet environment|
+| 1 month | Tests & Documentation | 1. We will provide both [inline documentation]() of the code and a [basic tutorial](./script_usage.md) that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper [functional test coverage](https://github.com/XP-NETWORK/dfinity-integration/blob/ext721/src/minter/src/tests.rs) 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests for the auditing purposes<br/>3. [Deploying](#bridge-contracts-deployed-on-testnet) and testing the contracts in the testnet environment|
 
-### Bridge contracts deployed on Testnet
+### Bridge contracts deployed on the Mainnet
 
 |Name|Address|Functionality|
 |:-:|:-:|:-|
@@ -54,6 +54,6 @@ https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b
 # TODO
 
 ## `Milestone 4` — Integrating into the Live Bridge
-| Length | Deliverable | Specification |
-|-|-|-|
-| 1 month | Validators, Backend, Frontend | 1. Developing validation logic relevant for the Dfinity part of the bridge<br/>2. Adding Dfinity to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging Dfinity in the heartbeat<br/>5. Integrating with a Dfinity rpc node<br/>6. Integrating Dfinity in the bridge UI<br/>7. Deploying smart contracts<br/>8. Adding Dfinity to the bridge JS library<br/>9. Adding access to Dfinity from the REST API<br/>10. Adding Dfinity to the bridge widget|
+| Specification |
+|-|
+| 1. We've developed validation logic relevant for the Dfinity part of the bridge<br/>2. Adding Dfinity to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging Dfinity in the [heartbeat](./Proof.md/#44-heartbeat)<br/>5. Integrating with a Dfinity [rpc node](./Proof.md/#45-integrated-nodes)<br/>6. Integrating Dfinity in the bridge UI<br/>7. [Deployed](./Proof.md/#47-deployed-mainnet-contracts) smart contracts on the mainnet<br/>8. Added Dfinity to the bridge [JS library](./Proof.md/#48-dfinity-in-xpjs)<br/>9. Adding Dfinity to the bridge widget|
