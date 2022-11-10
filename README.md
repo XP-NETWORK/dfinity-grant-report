@@ -39,7 +39,7 @@ https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b
 
 | Length | Deliverable | Specification |
 |-|-|-|
-| 1 month | Tests & Documentation | 1. We will provide both [inline documentation]() of the code and a [basic tutorial](./script_usage.md) that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper [functional test coverage](https://github.com/XP-NETWORK/dfinity-integration/blob/ext721/src/minter/src/tests.rs) 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests for the auditing purposes<br/>3. [Deploying](#bridge-contracts-deployed-on-testnet) and testing the contracts in the testnet environment|
+| 1 month | Tests & Documentation | 1. We will provide both [inline documentation](https://github.com/XP-NETWORK/dfinity-integration/commit/cbe0df3b82025f3246f282c32d5f77167b73ae62) of the code and a [basic tutorial](./script_usage.md) that can interact with the deployed smart contracts and backend service.<br/>2. The code will have proper [functional test coverage](https://github.com/XP-NETWORK/dfinity-integration/blob/ext721/src/minter/src/tests.rs) 85% to ensure functionality and robustness. In the guide, we will describe how to run these tests for the auditing purposes<br/>3. [Deploying](#bridge-contracts-deployed-on-testnet) and testing the contracts in the testnet environment|
 
 ### Bridge contracts deployed on the Mainnet
 
