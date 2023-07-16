@@ -70,3 +70,10 @@ https://github.com/XP-NETWORK/xpjs/search?q=dfinity
 
 URL: https://widget-staging.xp.network/
 
+On the left Settings panel we see ICP can be selected & deselected. In the main screen ICP can be selected as a chain of departure.
+
+![Chain & Departure](assets/chains_departure.png)
+
+On the left Settings panel 3 ICP compatible wallets can be selected or deselected: Plug, Stoik & Bifinity. In the center, ICP can be selected as a chain of destination.
+
+![Wallets & Departure](assets/wallet.png)
