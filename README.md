@@ -49,11 +49,7 @@ https://github.com/XP-NETWORK/dfinity-integration/blob/8130c3e84abb58e24d9326d4b
 |XPNFT|[e4jii-5yaaa-aaaak-qasuq-cai](https://icscan.io/canister/e4jii-5yaaa-aaaak-qasuq-cai)|The default NFT contract|
 |UMT|[evkdu-lqaaa-aaaak-qasva-cai](https://icscan.io/canister/evkdu-lqaaa-aaaak-qasva-cai)|NFT contract for free minting & testing bridging transactions|
 
-
-
-# TODO
-
 ## `Milestone 4` — Integrating into the Live Bridge
 | Specification |
 |-|
-| 1. We've developed validation logic relevant for the Dfinity part of the bridge<br/>2. Adding Dfinity to the Bridge NFT-Indexer<br/>3. Integrating TX fee estimation<br/>4. Plugging Dfinity in the [heartbeat](./Proof.md/#44-heartbeat)<br/>5. Integrating with a Dfinity [rpc node](./Proof.md/#45-integrated-nodes)<br/>6. Integrating Dfinity in the bridge UI<br/>7. [Deployed](./Proof.md/#47-deployed-mainnet-contracts) smart contracts on the mainnet<br/>8. Added Dfinity to the bridge [JS library](./Proof.md/#48-dfinity-in-xpjs)<br/>9. Adding Dfinity to the bridge widget|
+| 1. We've developed [validation logic](./Proof.md#41-validators-work) relevant for the Dfinity part of the bridge<br/>2. Adding Dfinity to the Bridge [NFT-Indexer](./Proof.md#42-nft-indexer)<br/>3. Integrating [TX fee estimation](./Proof.md#43-transaction-fee-estimation)<br/>4. Plugging Dfinity in the [heartbeat](./Proof.md/#44-heartbeat)<br/>5. Integrating with a Dfinity [rpc node](./Proof.md/#45-integrated-nodes)<br/>6. Integrating Dfinity in the [bridge UI](./Proof.md#46-icp-in-the-bridge-ui)<br/>7. [Deployed](./Proof.md/#47-deployed-mainnet-contracts) smart contracts on the mainnet<br/>8. Added Dfinity to the bridge [JS library](./Proof.md/#48-dfinity-in-xpjs)<br/>9. Adding Dfinity to the bridge [widget](./Proof.md#49-icp-in-the-widget)|
